@@ -1,0 +1,13 @@
+schema:
+  version: 1
+---
+owner:
+  # https://uown.uberinternal.com/assets/ea4763e6-f15d-419d-b273-2319ff09aa10
+  assetUuid: ea4763e6-f15d-419d-b273-2319ff09aa10
+  # Owner information updated from uOwn by assetUuid value.
+  # "managerEmail" retrieved from "Accountable" role on uOwn.
+  name: dotcom-contributors
+  managerEmail: hlee@uber.com
+reviewers:
+  groups:
+    - dotcom-eng

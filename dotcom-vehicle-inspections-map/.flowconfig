@@ -1,0 +1,230 @@
+[ignore]
+# GENERATED FILE DO NOT EDIT
+#
+# Jazelle
+.*/external/jazelle/.*
+# Git
+.*/\.git/.*
+# VSCode
+.*/\.vscode/.*
+# Fusion.js
+.*/\.fusion/.*
+.*/coverage/.*
+.*/dist-client/.*
+.*/dist-cover/.*
+.*/dist-server/.*
+.*/dist-test/.*
+.*/src/client/static/.*
+.*/src/static/fonts/.*
+.*/static/fonts/.*
+# Buildkite
+.*/\.buildkite/.*
+# Arcanist
+.*/\.arcanist-extensions/.*
+# Misc. safely ignorable directories
+.*/\.tmp/.*
+# Misc. file types
+.*\.css$
+.*\.es2015\.es\.js$
+.*\.gif$
+.*\.jpg$
+.*\.png$
+.*\.svg$
+.*\.ttf$
+.*\.woff$
+.*\.woff2$
+
+[declarations]
+.*/__generated__/.*
+.*/\.yarn/*.
+.*/infra/devexp/@uber/typed-rpc-cli/.*
+.*/flow-typed/.*
+
+[include]
+../../../../../../.yarn/unplugged/@apollo-protobufjs-npm-1.0.4-e2c96ba2ea/node_modules/@apollo/protobufjs/**
+../../../../../../.yarn/unplugged/@esbuild-plugins-node-globals-polyfill-virtual-a44af847b3/node_modules/@esbuild-plugins/node-globals-polyfill/**
+../../../../../../.yarn/unplugged/@uber-atg-proto-npm-0.0.132-e7a48e8f22/node_modules/@uber/atg-proto/**
+../../../../../../.yarn/unplugged/@uber-fusion-plugin-marketing-virtual-1f5d0fdbda/node_modules/@uber/fusion-plugin-marketing/**
+../../../../../../.yarn/unplugged/@uber-geoip-pack-npm-0.4.3-e769210a85/node_modules/@uber/geoip-pack/**
+../../../../../../.yarn/unplugged/aws-sdk-npm-2.1010.0-6b49dba94a/node_modules/aws-sdk/**
+../../../../../../.yarn/unplugged/bufferutil-npm-4.0.2-6f283689b1/node_modules/bufferutil/**
+../../../../../../.yarn/unplugged/canvas-npm-2.10.2-ceb54a412f/node_modules/canvas/**
+../../../../../../.yarn/unplugged/core-js-npm-3.9.1-5a7342ca0f/node_modules/core-js/**
+../../../../../../.yarn/unplugged/core-js-pure-npm-3.20.2-7f28c59f39/node_modules/core-js-pure/**
+../../../../../../.yarn/unplugged/csstype-npm-3.1.0-0e405212e2/node_modules/csstype/**
+../../../../../../.yarn/unplugged/dataloader-npm-2.1.0-d26357d865/node_modules/dataloader/**
+../../../../../../.yarn/unplugged/deasync-npm-0.1.24-3445a0efbd/node_modules/deasync/**
+../../../../../../.yarn/unplugged/dom-to-image-npm-2.6.0-8af9792314/node_modules/dom-to-image/**
+../../../../../../.yarn/unplugged/esbuild-linux-64-npm-0.15.13-e3cb5ce303/node_modules/esbuild-linux-64/**
+../../../../../../.yarn/unplugged/esbuild-npm-0.15.13-7db36c1caa/node_modules/esbuild/**
+../../../../../../.yarn/unplugged/farmhash-npm-3.2.2-7a2be8a909/node_modules/farmhash/**
+../../../../../../.yarn/unplugged/flow-bin-npm-0.131.0-182b1379c1/node_modules/flow-bin/**
+../../../../../../.yarn/unplugged/fusion-cli-virtual-e1a23cc882/node_modules/fusion-cli/**
+../../../../../../.yarn/unplugged/gc-stats-npm-1.4.0-3f2ca8958e/node_modules/gc-stats/**
+../../../../../../.yarn/unplugged/graphql-npm-15.8.0-0156c66b65/node_modules/graphql/**
+../../../../../../.yarn/unplugged/graphql-tag-virtual-fb5833f0de/node_modules/graphql-tag/**
+../../../../../../.yarn/unplugged/grpc-npm-1.24.6-749129c3a3/node_modules/grpc/**
+../../../../../../.yarn/unplugged/immutable-npm-3.7.6-1c13b39359/node_modules/immutable/**
+../../../../../../.yarn/unplugged/memoize-one-npm-5.2.1-ee0f8be979/node_modules/memoize-one/**
+../../../../../../.yarn/unplugged/nan-npm-2.17.0-bf36a21d6f/node_modules/nan/**
+../../../../../../.yarn/unplugged/node-addon-api-npm-4.3.0-a07a1232df/node_modules/node-addon-api/**
+../../../../../../.yarn/unplugged/node-gyp-npm-9.0.0-0eccfca4d1/node_modules/node-gyp/**
+../../../../../../.yarn/unplugged/node-pre-gyp-npm-0.16.0-54a79332bc/node_modules/node-pre-gyp/**
+../../../../../../.yarn/unplugged/node-uuid-npm-1.4.8-74bf39ff58/node_modules/node-uuid/**
+../../../../../../.yarn/unplugged/nodemon-npm-2.0.15-5e88e7aef5/node_modules/nodemon/**
+../../../../../../.yarn/unplugged/open-npm-8.4.0-df63cfe537/node_modules/open/**
+../../../../../../.yarn/unplugged/playwright-core-npm-1.25.0-25216e7f57/node_modules/playwright-core/**
+../../../../../../.yarn/unplugged/playwright-npm-1.25.0-597bdd3394/node_modules/playwright/**
+../../../../../../.yarn/unplugged/pprof-npm-3.2.0-dc59f49418/node_modules/pprof/**
+../../../../../../.yarn/unplugged/prettier-npm-2.7.1-d1f40f5e1a/node_modules/prettier/**
+../../../../../../.yarn/unplugged/protobufjs-npm-7.0.0-caea7a2a3b/node_modules/protobufjs/**
+../../../../../../.yarn/unplugged/react-dev-utils-virtual-f40eae35aa/node_modules/react-dev-utils/**
+../../../../../../.yarn/unplugged/react-dom-virtual-dca74b0fb5/node_modules/react-dom/**
+../../../../../../.yarn/unplugged/react-npm-18.2.0-1eae08fee2/node_modules/react/**
+../../../../../../.yarn/unplugged/react-window-virtual-e391c05e19/node_modules/react-window/**
+../../../../../../.yarn/unplugged/resize-observer-polyfill-npm-1.5.1-603120e8a0/node_modules/resize-observer-polyfill/**
+../../../../../../.yarn/unplugged/sse4_crc32-npm-5.4.0-fc2305eba3/node_modules/sse4_crc32/**
+../../../../../../.yarn/unplugged/styletron-react-virtual-ed5f45fd90/node_modules/styletron-react/**
+../../../../../../.yarn/unplugged/term-size-npm-2.2.0-2f8b439547/node_modules/term-size/**
+../../../../../../.yarn/unplugged/tldjs-npm-2.3.1-25e51f3b87/node_modules/tldjs/**
+../../../../../../.yarn/unplugged/ua-parser-npm-0.3.5-68f916734f/node_modules/ua-parser/**
+../../../../../../.yarn/unplugged/utf-8-validate-npm-5.0.3-70d3f814e3/node_modules/utf-8-validate/**
+../../../../../../.yarn/unplugged/uuid-npm-2.0.3-3ff56c79d0/node_modules/uuid/**
+../../../../../../.yarn/unplugged/web-vitals-patch-56e8789b45/node_modules/web-vitals/**
+../../../../../../.yarn/unplugged/xorshift-npm-0.2.1-62670cbe85/node_modules/xorshift/**
+../../../../../../node_modules/
+../../../../../../src/common/@uber/aws/**
+../../../../../../src/common/@uber/babel-config/**
+../../../../../../src/common/@uber/baseui/**
+../../../../../../src/common/@uber/eslint-config/**
+../../../../../../src/common/@uber/eslint-plugin/**
+../../../../../../src/common/@uber/flaky-tests-client/**
+../../../../../../src/common/@uber/jest-config-utils/**
+../../../../../../src/common/@uber/jest-config/**
+../../../../../../src/infra/devplatform/web-ops/@uber/integration-test-utils/**
+../../../../../../src/infra/devplatform/web-ops/@uber/ubook/**
+../../../../../../src/infra/devplatform/web-ops/@uber/web-code-explorer/**
+../../../../../../src/infra/devplatform/web-ops/type-check/**
+../../../../../../src/platform/growthplatform/common/@uber/component-common/**
+../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-common/device-type-context/**
+../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-styles/**
+../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-ui/**
+../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-utils/**
+../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/wcb3-img/**
+../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/wcb3-lazyload/**
+../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/wcb3-map/**
+../../../../../../types/create-universal-package-env/**
+
+[libs]
+../../../../../../flow-typed/
+./flow-typed/
+
+[options]
+module.name_mapper='^@apollo/protobufjs\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/@apollo-protobufjs-npm-1.0.4-e2c96ba2ea/node_modules/@apollo/protobufjs/\1'
+module.name_mapper='^@esbuild-plugins/node-globals-polyfill\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/@esbuild-plugins-node-globals-polyfill-virtual-a44af847b3/node_modules/@esbuild-plugins/node-globals-polyfill/\1'
+module.name_mapper='^@types/create-universal-package-env\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../types/create-universal-package-env/\1'
+module.name_mapper='^@uber/atg-proto\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/@uber-atg-proto-npm-0.0.132-e7a48e8f22/node_modules/@uber/atg-proto/\1'
+module.name_mapper='^@uber/aws\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/aws/\1'
+module.name_mapper='^@uber/babel-config\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/babel-config/\1'
+module.name_mapper='^@uber/baseui\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/baseui/\1'
+module.name_mapper='^@uber/component-common\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/common/@uber/component-common/\1'
+module.name_mapper='^@uber/device-type-context\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-common/device-type-context/\1'
+module.name_mapper='^@uber/dotcom-styles\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-styles/\1'
+module.name_mapper='^@uber/dotcom-ui\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-ui/\1'
+module.name_mapper='^@uber/dotcom-utils\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-utils/\1'
+module.name_mapper='^@uber/eslint-config\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/eslint-config/\1'
+module.name_mapper='^@uber/eslint-plugin\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/eslint-plugin/\1'
+module.name_mapper='^@uber/flaky-tests-client\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/flaky-tests-client/\1'
+module.name_mapper='^@uber/fusion-plugin-marketing\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/@uber-fusion-plugin-marketing-virtual-1f5d0fdbda/node_modules/@uber/fusion-plugin-marketing/\1'
+module.name_mapper='^@uber/geoip-pack\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/@uber-geoip-pack-npm-0.4.3-e769210a85/node_modules/@uber/geoip-pack/\1'
+module.name_mapper='^@uber/integration-test-utils\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/infra/devplatform/web-ops/@uber/integration-test-utils/\1'
+module.name_mapper='^@uber/jest-config-utils\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/jest-config-utils/\1'
+module.name_mapper='^@uber/jest-config\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/jest-config/\1'
+module.name_mapper='^@uber/type-check\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/infra/devplatform/web-ops/type-check/\1'
+module.name_mapper='^@uber/ubook\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/infra/devplatform/web-ops/@uber/ubook/\1'
+module.name_mapper='^@uber/wcb3-img\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/wcb3-img/\1'
+module.name_mapper='^@uber/wcb3-lazyload\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/wcb3-lazyload/\1'
+module.name_mapper='^@uber/wcb3-map\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/platform/growthplatform/communications-authoring-platform/web-services-components/wcb3-map/\1'
+module.name_mapper='^@uber/web-code-explorer\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/infra/devplatform/web-ops/@uber/web-code-explorer/\1'
+module.name_mapper='^aws-sdk\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/aws-sdk-npm-2.1010.0-6b49dba94a/node_modules/aws-sdk/\1'
+module.name_mapper='^baseui\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../src/common/@uber/baseui/\1'
+module.name_mapper='^bufferutil\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/bufferutil-npm-4.0.2-6f283689b1/node_modules/bufferutil/\1'
+module.name_mapper='^canvas\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/canvas-npm-2.10.2-ceb54a412f/node_modules/canvas/\1'
+module.name_mapper='^core-js-pure\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/core-js-pure-npm-3.20.2-7f28c59f39/node_modules/core-js-pure/\1'
+module.name_mapper='^core-js\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/core-js-npm-3.9.1-5a7342ca0f/node_modules/core-js/\1'
+module.name_mapper='^csstype\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/csstype-npm-3.1.0-0e405212e2/node_modules/csstype/\1'
+module.name_mapper='^dataloader\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/dataloader-npm-2.1.0-d26357d865/node_modules/dataloader/\1'
+module.name_mapper='^deasync\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/deasync-npm-0.1.24-3445a0efbd/node_modules/deasync/\1'
+module.name_mapper='^dom-to-image\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/dom-to-image-npm-2.6.0-8af9792314/node_modules/dom-to-image/\1'
+module.name_mapper='^esbuild-linux-64\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/esbuild-linux-64-npm-0.15.13-e3cb5ce303/node_modules/esbuild-linux-64/\1'
+module.name_mapper='^esbuild\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/esbuild-npm-0.15.13-7db36c1caa/node_modules/esbuild/\1'
+module.name_mapper='^farmhash\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/farmhash-npm-3.2.2-7a2be8a909/node_modules/farmhash/\1'
+module.name_mapper='^flow-bin\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/flow-bin-npm-0.131.0-182b1379c1/node_modules/flow-bin/\1'
+module.name_mapper='^fusion-cli\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/fusion-cli-virtual-e1a23cc882/node_modules/fusion-cli/\1'
+module.name_mapper='^gc-stats\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/gc-stats-npm-1.4.0-3f2ca8958e/node_modules/gc-stats/\1'
+module.name_mapper='^graphql-tag\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/graphql-tag-virtual-fb5833f0de/node_modules/graphql-tag/\1'
+module.name_mapper='^graphql\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/graphql-npm-15.8.0-0156c66b65/node_modules/graphql/\1'
+module.name_mapper='^grpc\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/grpc-npm-1.24.6-749129c3a3/node_modules/grpc/\1'
+module.name_mapper='^immutable\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/immutable-npm-3.7.6-1c13b39359/node_modules/immutable/\1'
+module.name_mapper='^memoize-one\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/memoize-one-npm-5.2.1-ee0f8be979/node_modules/memoize-one/\1'
+module.name_mapper='^nan\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/nan-npm-2.17.0-bf36a21d6f/node_modules/nan/\1'
+module.name_mapper='^node-addon-api\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/node-addon-api-npm-4.3.0-a07a1232df/node_modules/node-addon-api/\1'
+module.name_mapper='^node-gyp\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/node-gyp-npm-9.0.0-0eccfca4d1/node_modules/node-gyp/\1'
+module.name_mapper='^node-pre-gyp\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/node-pre-gyp-npm-0.16.0-54a79332bc/node_modules/node-pre-gyp/\1'
+module.name_mapper='^node-uuid\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/node-uuid-npm-1.4.8-74bf39ff58/node_modules/node-uuid/\1'
+module.name_mapper='^nodemon\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/nodemon-npm-2.0.15-5e88e7aef5/node_modules/nodemon/\1'
+module.name_mapper='^open\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/open-npm-8.4.0-df63cfe537/node_modules/open/\1'
+module.name_mapper='^playwright-core\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/playwright-core-npm-1.25.0-25216e7f57/node_modules/playwright-core/\1'
+module.name_mapper='^playwright\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/playwright-npm-1.25.0-597bdd3394/node_modules/playwright/\1'
+module.name_mapper='^pprof\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/pprof-npm-3.2.0-dc59f49418/node_modules/pprof/\1'
+module.name_mapper='^prettier\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/prettier-npm-2.7.1-d1f40f5e1a/node_modules/prettier/\1'
+module.name_mapper='^protobufjs\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/protobufjs-npm-7.0.0-caea7a2a3b/node_modules/protobufjs/\1'
+module.name_mapper='^react-dev-utils\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/react-dev-utils-virtual-f40eae35aa/node_modules/react-dev-utils/\1'
+module.name_mapper='^react-dom\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/react-dom-virtual-dca74b0fb5/node_modules/react-dom/\1'
+module.name_mapper='^react-window\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/react-window-virtual-e391c05e19/node_modules/react-window/\1'
+module.name_mapper='^react\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/react-npm-18.2.0-1eae08fee2/node_modules/react/\1'
+module.name_mapper='^resize-observer-polyfill\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/resize-observer-polyfill-npm-1.5.1-603120e8a0/node_modules/resize-observer-polyfill/\1'
+module.name_mapper='^sse4_crc32\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/sse4_crc32-npm-5.4.0-fc2305eba3/node_modules/sse4_crc32/\1'
+module.name_mapper='^styletron-react\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/styletron-react-virtual-ed5f45fd90/node_modules/styletron-react/\1'
+module.name_mapper='^term-size\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/term-size-npm-2.2.0-2f8b439547/node_modules/term-size/\1'
+module.name_mapper='^tldjs\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/tldjs-npm-2.3.1-25e51f3b87/node_modules/tldjs/\1'
+module.name_mapper='^ua-parser\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/ua-parser-npm-0.3.5-68f916734f/node_modules/ua-parser/\1'
+module.name_mapper='^utf-8-validate\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/utf-8-validate-npm-5.0.3-70d3f814e3/node_modules/utf-8-validate/\1'
+module.name_mapper='^uuid\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/uuid-npm-2.0.3-3ff56c79d0/node_modules/uuid/\1'
+module.name_mapper='^web-vitals\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/web-vitals-patch-56e8789b45/node_modules/web-vitals/\1'
+module.name_mapper='^xorshift\(.*\)$' -> '<PROJECT_ROOT>/../../../../../../.yarn/unplugged/xorshift-npm-0.2.1-62670cbe85/node_modules/xorshift/\1'
+sharedmemory.hash_table_pow=21
+esproposal.decorators=warn
+esproposal.optional_chaining=enable
+include_warnings=false
+module.use_strict=true
+# Provide hints for Flow to resolve the typed entry point for a project.  As some
+# provides are not using TypeScript, the normal 'main' entry point may not be sufficient.
+# Instead, look for 'mainFlow'.
+module.system.node.main_field=mainFlow
+module.system.node.main_field=main
+
+[lints]
+# Lint rules match those outlined in the following doc:
+# https://docs.google.com/document/d/1mvjyTfIV39wDfRYkSMK9KOsvNnHJBwLal58wL6kkFPE/edit
+unclear-type=error
+unsafe-getters-setters=error
+untyped-import=error
+untyped-type-import=error
+sketchy-number=error
+deprecated-type=error
+deprecated-utility=error
+
+[strict]
+# As of 2020-02-19, the web-code is not in a state to enable nonstrict-import
+# due to a large number of noncompliant files.  An effort should be made in the
+# future to rectify this.
+#nonstrict-import
+# The below matches the rules recommended by the Flow team: https://flow.org/en/docs/strict/
+unclear-type
+unsafe-getters-setters
+untyped-import
+untyped-type-import
+
+[version]
+0.131.0

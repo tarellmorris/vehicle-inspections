@@ -1,0 +1,22 @@
+load("//rules:web-code.bzl", "web_code_service")
+package(default_visibility = ["//visibility:public"])
+
+web_code_service(
+    package = "//src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-vehicle-inspections-map",
+    deps = [
+        "//:.yarn",
+        "//src/common/@uber/babel-config:library",
+        "//src/common/@uber/eslint-config:library",
+        "//src/common/@uber/eslint-plugin:library",
+        "//src/common/@uber/jest-config:library",
+        "//src/common/baseui:library",
+        "//src/infra/devplatform/web-ops/@uber/ubook:library",
+        "//src/infra/devplatform/web-ops/type-check:library",
+        "//src/platform/growthplatform/common/@uber/component-common:library",
+        "//src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-ui:library",
+        "//src/platform/growthplatform/communications-authoring-platform/web-services-components/dotcom-utils:library",
+        "//src/platform/growthplatform/communications-authoring-platform/web-services-components/wcb3-map:library",
+        "//types/create-universal-package-env:library",
+    ],
+    srcs = glob(["**"], exclude = ["dist/**", ".flowconfig"]),
+)
