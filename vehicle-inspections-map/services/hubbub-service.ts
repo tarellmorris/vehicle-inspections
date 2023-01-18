@@ -37,7 +37,7 @@ const plugin = createPlugin<HubbubServiceDeps, HubbubServiceType>({
           args: {
             request: {
               serviceIds: [INSPECTIONS_SERVICE_ID],
-              cityIDs: [safariService ? safariService[0].id : '1'],
+              cityIDs: [safariService?.[0]?.id ? safariService[0].id : 0],
               siteStatus: [ACTIVE_SITE_STATUS],
             },
           },

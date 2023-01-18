@@ -64,7 +64,7 @@ export class VIMBlock extends React.Component<VIMProps, State> {
     return (
       <VehicleInspectionsMap
         {...this.props}
-        clientId={GOOGLE_MAPS_CLIENT_ID}
+        mapProps={{ clientId: GOOGLE_MAPS_CLIENT_ID }}
         translations={translations}
         directionLink={directionLink}
         sites={sites}
